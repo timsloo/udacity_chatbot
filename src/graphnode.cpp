@@ -11,7 +11,9 @@ GraphNode::~GraphNode()
     //// STUDENT CODE
     ////
 
-    delete _chatBot; 
+
+    // delete _chatBot;   // fix for initial bug: Chatlogic frees memory
+
 
     ////
     //// EOF STUDENT CODE
